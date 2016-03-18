@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CASIO</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+	
+	<div class="slide" id="slideDown">
+		<button >
+			SlideDown
+		</button>
+	</div>
+	
+	<div class="container">
+		
+		<div class="dektop">
+			<div class="logo">
+				<p>May tinh CASIO FX 570MS</p>
+			</div>
+			
+			<div class="screen">
+				<input type="text" id="dktop" disabled="disabled" >
+			</div>
+			
+		</div>
+		<div class="content">
+			<div class="row1">
+				<div class="col">
+					<button id="c" onclick=" clearAll()">
+						C
+					</button>
+				</div>
+				<div class="col">
+					<button id="binhPhuong" onclick=" binhPhuong()">
+						x<sup>2</sup>
+					</button>
+				</div>
+				<div class="col">
+					<button id="sqrt" onclick="sqrt()">
+						SQRT
+					</button>
+				</div>
+				<div class="col">
+					<button id="giaiThua" onclick=" giaiThua()">
+						!
+					</button>
+				</div>
+				<div class="col">
+					<button id="del" onclick="del()">
+						Del
+					</button>
+				</div>
+			</div>
+			<div class="row2">
+				<div class="col">
+					<button id="7" onclick=" number7() ">
+						7
+					</button>
+				</div>
+				<div class="col">
+					<button id="8" onclick="number8()">
+						8
+					</button>
+				</div>
+				<div class="col">
+					<button id="9" onclick="number9()">
+						9
+					</button>
+				</div>
+				<div class="col">
+					<button id="laydu" onclick="layDu()">
+						%
+					</button>
+				</div>
+				<div class="col">
+					<button id="log10" onclick="log10()">
+						Log10
+					</button>	
+				</div>
+			</div>
+			<div class="row3">
+				<div class="col">
+					<button id="4" onclick="number4()">
+						4
+					</button>
+				</div>
+				<div class="col">
+					<button  id="5" onclick="number5()"> 
+						5
+					</button>
+				</div>
+				<div class="col" >
+					<button id="6" onclick="number6()">
+						6
+					</button>
+				</div>
+				<div class="col">
+					<button id="nhan" onclick="nhan()">
+						*
+					</button>
+				</div>
+				<div class="col">
+					<button id="tru" onclick="tru()">
+						-
+					</button>
+				</div>
+
+			</div>
+			<div class="row4">
+				<div class="col">
+					<button id="1" onclick="number1()"> 
+						1
+					</button>
+				</div>
+				<div class="col">
+					<button id="2" onclick="number2()">
+						2
+					</button>
+				</div>
+				<div class="col">
+					<button id="3" onclick="number3()">
+						3
+					</button>
+				</div>
+				<div class="col">
+					<button id="chia" onclick="chia()">
+						/
+					</button>
+				</div>
+				<div class="col">
+					<button id="cong" onclick="cong()">
+						+
+					</button>
+				</div>
+			</div>
+			<div class="row5">
+				<div class="col">
+					<button id="0" onclick="number0()">
+						0
+					</button>
+				</div>
+
+				<div class="col">
+					<button id="cham" onclick="cham()">
+						.
+					</button>
+				</div>
+				<div class="col">
+					<button id="pi" onclick="pi()">
+						&pi;
+					</button>
+				</div>
+				<div class="col">
+					<button id="ketQua" onclick="cal()">
+						=
+					</button>
+				</div>
+				<div class="col">
+					<button id="changetheme">
+						<p>Change Theme</p>
+					</button>
+				</div>
+
+			</div>
+		</div>
+		<script src="jquery-2.2.1.min.js" type="text/javascript"></script>
+		<script src="script.js"></script>
+		
+
+	</body>
+	</html>
